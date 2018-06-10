@@ -75,7 +75,6 @@ public class Main {
 		List<Integer> hashCodesList = new ArrayList<>();
 
 		attributesMap.forEach((key, value) -> {
-
 			// Building cssQuery with each original attribute
 			String cssQuery = "" + tagName + "[" + key + "=\"" + value + "\"]";
 			if (key.equals("text"))
